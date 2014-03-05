@@ -1,0 +1,38 @@
+{
+  "name": "viceroy-delta",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "tape ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Battlefy/Viceroy-Delta.git"
+  },
+  "author": "Robert Hurst <robertwhurst@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Battlefy/Viceroy-Delta/issues"
+  },
+  "homepage": "https://github.com/Battlefy/Viceroy-Delta",
+  "dependencies": {
+    "clone": "^0.1.15",
+    "deep-equal": "^0.2.1"
+  },
+  "devDependencies": {
+    "tape": "^2.7.1"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/10..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/5.0.5..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest"
+    ]
+  }
+}
